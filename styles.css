@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.circler {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: blue;
+}
